@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <gradient
+        android:angle="225"
+        android:centerY="0.9"
+        android:startColor="#34ebe9"
+        android:endColor="#d0ffae"
+        android:type="linear" />
+    <corners android:radius="0dip" />
+
+</shape>
+<!--
+1.引用：在布局中的background处引用
+4. shape的值有四种：rectangle-矩形；oval-椭圆；line-线；ring-环。
+5. angle的值：从左到右为0；然后逆时针旋转，90度为从下到上，270为从上到下。
+
+6. centerx和centery的值取0-1；
+
+7. startcolor、centercolor、endcolor为渐变色的开始、中间、最后的颜色值。
+
+8. type的值有三种：linear-线性；radial-径向；sweep-3D效果。
+
+9. color的radius值表示边角的弧度半径。
+8ce6b7
+
+android:startColor="#d0ffae"
+        android:endColor="#5ee6b7"
+-->
